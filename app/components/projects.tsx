@@ -1,4 +1,8 @@
 import botion from "@/public/botion.webp"
+import lingo from "@/public/lingo.webp"
+import pepe from "@/public/pepe_co.webp"
+import pokedex from "@/public/pokedex.webp"
+
 import Image from "next/image";
 
 
@@ -30,16 +34,15 @@ export default function Projects() {
           </div>
         </figure>
         <figure className=" w-full h-full my-5 bg-[#242424] shadow-lg shadow-blue-500 md:w-[45%]">
-          <Image src={botion} alt="botion screenshot" />
+          <Image src={lingo} alt="botion screenshot" />
           <figcaption className="h-full w-full text-center text-2xl p-3">
-            Botion-Lp
+            Lingo Academy
           </figcaption>
           <div className="">
             <ul className="w-full text-lg flex justify-evenly p-3">
               <li>Next.js</li>
               <li>TypeScript</li>
               <li>Tailwind</li>
-              <li>Convex</li>
             </ul>
             <div className=" py-2 pb-5 p-3 text-lg underline underline-offset-8">
               View Project
@@ -47,16 +50,15 @@ export default function Projects() {
           </div>
         </figure>
         <figure className=" w-full h-full my-5 bg-[#242424] shadow-lg shadow-blue-500 md:w-[45%]">
-          <Image src={botion} alt="botion screenshot" />
+          <Image src={pepe} alt="botion screenshot" />
           <figcaption className="h-full w-full text-center text-2xl p-3">
-            Botion-Lp
+            Pepe Co.
           </figcaption>
           <div className="">
             <ul className="w-full text-lg flex justify-evenly p-3">
               <li>Next.js</li>
               <li>TypeScript</li>
               <li>Tailwind</li>
-              <li>Convex</li>
             </ul>
             <div className=" py-2 pb-5 p-3 text-lg underline underline-offset-8">
               View Project
@@ -64,16 +66,16 @@ export default function Projects() {
           </div>
         </figure>
         <figure className=" w-full h-full my-5 bg-[#242424] shadow-lg shadow-blue-500 md:w-[45%]">
-          <Image src={botion} alt="botion screenshot" />
+          <Image src={pokedex} alt="botion screenshot" />
           <figcaption className="h-full w-full text-center text-2xl p-3">
-            Botion-Lp
+            Pokedex
           </figcaption>
           <div className="">
             <ul className="w-full text-lg flex justify-evenly p-3">
-              <li>Next.js</li>
+              <li>Astro</li>
+              <li>React</li>
               <li>TypeScript</li>
               <li>Tailwind</li>
-              <li>Convex</li>
             </ul>
             <div className=" py-2 pb-5 p-3 text-lg underline underline-offset-8">
               View Project
