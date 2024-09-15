@@ -1,5 +1,6 @@
 import Image from "next/image";
 import avatar from "@/public/avatar.webp";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -31,7 +32,7 @@ export default function Hero() {
             </p>
           </div>
           <div className=" py-2 pb-5 underline underline-offset-4">
-            Contact Me
+            <Link href="#contact">Contact Me</Link>
           </div>
         </section>
       </div>

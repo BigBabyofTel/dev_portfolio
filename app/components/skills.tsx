@@ -72,7 +72,7 @@ export default function Skills() {
   return (
     <article className="h-fit w-screen my-6 lg:w-full lg:mx-auto">
       <section className="h-fit w-11/12 p-2 mx-auto">
-        <div className="text-center grid gap-3 grid-col-2 grid-rows-7 md:w-full md:justify-items-center md:p-2 bg-[#242424] rounded-md shadow-lg shadow-blue-700 lg:flex lg:flex-wrap lg:h-screen lg:justify-evenly">
+        <div className="text-center grid gap-3 grid-col-2 grid-rows-7 md:w-full md:justify-items-center md:p-2 bg-[#242424] rounded-md lg:flex lg:flex-wrap lg:h-screen lg:justify-evenly">
           <section className="col-start-1 row-start-1 md:w-1/2 lg:w-1/6">
             <figure>
               <Image src={skillSet[0].icon} alt={skillSet[0].name} />

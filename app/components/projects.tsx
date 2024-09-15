@@ -4,6 +4,7 @@ import pepe from "@/public/pepe_co.webp"
 import pokedex from "@/public/pokedex.webp"
 
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default function Projects() {
@@ -12,7 +13,7 @@ export default function Projects() {
       <div className="w-full h-full p-3 flex justify-between items-center lg:w-5/6 lg:mx-auto">
         <h1 className="text-[40px] md:text-[65px] font-bold">Projects</h1>
         <div className=" py-2 pb-5 text-lg underline underline-offset-8">
-          Contact Me
+        <Link href="#contact">Contact Me</Link>
         </div>
       </div>
       <div className=" w-full h-full md:flex md:flex-wrap md:justify-evenly">
