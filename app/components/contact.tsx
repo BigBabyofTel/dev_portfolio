@@ -43,10 +43,12 @@ export default function Contact() {
   ];
 
   return (
-    <section className=" h-full w-full  flex flex-col justify-center">
-      <div className=" bg-[#242424] shadow-lg shadow-blue-700 md:flex md:flex-col md:justify-center md:w-11/12 md:mx-auto">
+    <section className=" h-full w-full  flex flex-col justify-center lg:p-5">
+      <div className=" bg-[#242424] shadow-lg shadow-blue-700 md:flex md:flex-col md:justify-center md:w-11/12 md:mx-auto lg:p-2">
         <div className="h-full w-full flex flex-col items-center justify-center p-2">
-          <h1 className="h-full w-full text-[40px] text-center">Contact</h1>
+          <h1 className="h-full w-full text-[40px] text-center lg:pb-5">
+            Contact
+          </h1>
           <p className="h-full w-1/2 text-center">
             I would love to hear about your project and how I could help. Please
             fill in the form, and I will get back to you as soon as possible.
@@ -80,37 +82,6 @@ export default function Contact() {
           </div>
         </form>
       </div>
-      <section className=" bg-[#242424] w-2/3 flex flex-col justify-center items-center my-4 rounded-md shadow-lg shadow-blue-700 md:w-full md:flex-row md:justify-between">
-        <h1 className=" text-center font-bold my-3 md:text-[32px] md:pl-4">
-          T. Augustus Baker
-        </h1>
-        <aside className="flex flex-col items-center md:flex-row md:w-1/3">
-          <div className=" w-full">
-            <div className="flex items-center justify-center w-full my-2">
-              <div className="pl-4">
-                <a href={contacts[0].url}>
-                  <Image src={github} alt="github" className="w-[63%]" />
-                </a>
-              </div>
-              <div>
-                <a href={contacts[1].url}>
-                  <Image src={outlook} alt="outlook" className="w-3/5" />
-                </a>
-              </div>
-              <div className="">
-                <a href={contacts[2].url}>
-                  <Image src={linkedin} alt="linkedin" className="w-2/3" />
-                </a>
-              </div>
-              <div>
-                <a href={contacts[3].url}>
-                  <Image src={discord} alt="discord" className="w-2/3" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </aside>
-      </section>
     </section>
   );
 }

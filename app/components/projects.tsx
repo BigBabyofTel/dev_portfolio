@@ -9,7 +9,7 @@ import Image from "next/image";
 export default function Projects() {
   return (
     <section className="w-full h-full">
-      <div className="w-full h-full p-3 flex justify-between items-center">
+      <div className="w-full h-full p-3 flex justify-between items-center lg:w-5/6 lg:mx-auto">
         <h1 className="text-[40px] md:text-[65px] font-bold">Projects</h1>
         <div className=" py-2 pb-5 text-lg underline underline-offset-8">
           Contact Me
