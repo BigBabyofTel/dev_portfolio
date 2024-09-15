@@ -50,6 +50,7 @@ export default function Contact() {
         >
           <Input
             placeholder="Name"
+            name="from_name"
             required
             type="text"
             color="default"
@@ -59,6 +60,7 @@ export default function Contact() {
           />
           <Input
             placeholder="Email"
+            name="email"
             required
             variant="underlined"
             style={{ borderStyle: "none", color: "white" }}
@@ -66,6 +68,7 @@ export default function Contact() {
           />
           <Textarea
             placeholder="Enter your Message"
+            name="message"
             required
             style={{ borderStyle: "none", color: "white" }}
             variant="underlined"
