@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { NextUIProvider } from "@nextui-org/react";
 
-const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
+
 
 export const metadata: Metadata = {
   title: "A Dev Portfolio",
@@ -17,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={spaceGrotesk.className}>
+      <body suppressHydrationWarning>
         <NextUIProvider>{children}</NextUIProvider>
       </body>
     </html>

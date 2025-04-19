@@ -26,9 +26,9 @@ export default function Hero() {
           </div>
           <div className="text-center p-4 my-2">
             <p>
-              I&apos;m American based in Cairo. An English teacher aspiring to
+              I&apos;m a retired English language arts teacher of almost a decade. I knew I needed to aspiring developing the skills to
               be a Web Developer. I hope to work together to make your web apps
-              enjoyable.
+              enjoyable, and your dreams to become reality.
             </p>
           </div>
           <div className=" py-2 pb-5 underline underline-offset-4">
