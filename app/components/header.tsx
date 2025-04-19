@@ -43,35 +43,35 @@ const contacts: Contact[] = [
 export default function Header() {
   return (
     <header className="w-full h-full flex justify-center md:flex-col">
-      <section className=" bg-[#242424] w-2/3 flex flex-col justify-center items-center my-4 rounded-md shadow-lg shadow-blue-700 md:w-full md:flex-row md:justify-between">
+      <section className=" bg-[#242424] p-3 w-2/3 flex flex-col justify-center items-center my-4 rounded-md shadow-lg  md:w-full md:flex-row md:justify-between">
         <h1 className=" text-center font-bold my-3 md:text-[32px] md:pl-4 lg:text-[32px]">
           T. Augustus Baker
         </h1>
-        <aside className="flex flex-col items-center md:flex-row md:w-1/3 lg:w-1/5">
-          <div className=" w-full">
-            <div className="flex items-center justify-center w-full my-2">
+        <aside className="flex flex-col  md:flex-row md:w-1/3 lg:w-1/5">
+         
+            <div className="flex items-center justify-center w-full ml-2">
               <div className="pl-4">
                 <a href={contacts[0].url}>
-                  <Image src={github} alt="github" className="w-[63%]" />
+                  <Image src={github} alt="github" className="w-1/3" />
                 </a>
               </div>
               <div>
                 <a href={contacts[1].url}>
-                  <Image src={outlook} alt="outlook" className="w-3/5" />
+                  <Image src={outlook} alt="outlook" className="w-1/3" />
                 </a>
               </div>
               <div className="">
                 <a href={contacts[2].url}>
-                  <Image src={linkedin} alt="linkedin" className="w-2/3" />
+                  <Image src={linkedin} alt="linkedin" className="w-1/3" />
                 </a>
               </div>
               <div>
                 <a href={contacts[3].url}>
-                  <Image src={discord} alt="discord" className="w-2/3" />
+                  <Image src={discord} alt="discord" className="w-1/3" />
                 </a>
               </div>
             </div>
-          </div>
+          
         </aside>
       </section>
     </header>

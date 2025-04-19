@@ -36,7 +36,7 @@ export default function Contact() {
           <h1 className="h-full w-full text-[40px] text-center lg:pb-5 lg:text-5xl">
             Contact
           </h1>
-          <p className="h-full w-1/2 text-center lg:text-2xl">
+          <p className="h-full w-full p-2 text-center lg:text-2xl">
             I would love to hear about your project and how I could help. Please
             fill in the form, and I will get back to you as soon as possible.
           </p>
@@ -46,7 +46,7 @@ export default function Contact() {
           ref={form}
           onSubmit={sendEmail}
           id="contact"
-          className=" h-full w-full flex flex-col justify-between items-center my-4 text-white"
+          className=" h-full w-screen flex flex-col justify-between items-center my-4 text-white"
         >
           <Input
             placeholder="Name"
@@ -56,7 +56,7 @@ export default function Contact() {
             color="default"
             variant="underlined"
             style={{ borderStyle: "none", color: "white" }}
-            className="m-1 md:w-1/2 text-white"
+            className="m-1 p-2 md:w-1/2 text-white"
           />
           <Input
             placeholder="Email"
@@ -64,7 +64,7 @@ export default function Contact() {
             required
             variant="underlined"
             style={{ borderStyle: "none", color: "white" }}
-            className="m-1 md:w-1/2"
+            className="m-1 p-2 md:w-1/2"
           />
           <Textarea
             placeholder="Enter your Message"
@@ -72,11 +72,11 @@ export default function Contact() {
             required
             style={{ borderStyle: "none", color: "white" }}
             variant="underlined"
-            className="m-1 md:w-1/2"
+            className="m-1 p-2 md:w-1/2"
           />
 
           <div className="">
-            <div className=" py-2 pb-5 p-3 text-lg underline underline-offset-8">
+            <div className="border bg-green-400 rounded-xl p-2 text-lg underline underline-offset-8">
               <button type="submit">Submit</button>
             </div>
           </div>
