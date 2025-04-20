@@ -46,7 +46,7 @@ export default function Contact() {
           ref={form}
           onSubmit={sendEmail}
           id="contact"
-          className=" h-full w-screen flex flex-col justify-between items-center my-4 text-white"
+          className=" h-full w-full flex flex-col justify-between items-center my-4 text-white"
         >
           <Input
             placeholder="Name"
@@ -56,7 +56,7 @@ export default function Contact() {
             color="default"
             variant="underlined"
             style={{ borderStyle: "none", color: "white" }}
-            className="m-1 p-2 md:w-1/2 text-white"
+            className="m-1 p-2 md:w-2/3 text-white"
           />
           <Input
             placeholder="Email"
@@ -64,7 +64,7 @@ export default function Contact() {
             required
             variant="underlined"
             style={{ borderStyle: "none", color: "white" }}
-            className="m-1 p-2 md:w-1/2"
+            className="m-1 p-2 md:w-2/3"
           />
           <Textarea
             placeholder="Enter your Message"
@@ -72,10 +72,10 @@ export default function Contact() {
             required
             style={{ borderStyle: "none", color: "white" }}
             variant="underlined"
-            className="m-1 p-2 md:w-1/2"
+            className="m-1 p-2 md:w-2/3"
           />
 
-          <div className="">
+          <div className="mx-auto">
             <div className="border bg-green-400 rounded-xl p-2 text-lg underline underline-offset-8">
               <button type="submit">Submit</button>
             </div>

@@ -1,10 +1,7 @@
-# design completed
+# Things to update
 
-# functionality
+* project section
 
-    1. working buttons
-        a. submit form
-        b. preview buttons for projects
-    2. working form
+* project previews
 
-# update projects
+* detail popup added

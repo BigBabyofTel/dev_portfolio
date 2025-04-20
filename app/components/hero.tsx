@@ -12,7 +12,7 @@ export default function Hero() {
           className="w-3/4 mx-auto md:w-full "
         />
       </figure>
-      <div className="bg-[#242424] shadow-lg md:h-fit md:w-2/3 md:mr-3 lg:w-1/2 lg:mr-10">
+      <div className="bg-[#242424] rounded-xl md:h-fit md:w-2/3 md:mr-3 lg:w-1/2 lg:mr-10">
         <section className="flex flex-col items-center ">
           <div className="w-full text-center m-1 font-bold text-[40px] p-1">
             <h2 className="">Nice to meet you!</h2>

@@ -47,27 +47,27 @@ export default function Header() {
         <h1 className=" text-center font-bold my-3 md:text-[32px] md:pl-4 lg:text-[32px]">
           T. Augustus Baker
         </h1>
-        <aside className="flex flex-col  md:flex-row md:w-1/3 lg:w-1/5">
+        <aside className="flex flex-col md:flex-row md:w-1/3 lg:w-1/5">
          
             <div className="flex items-center justify-center w-full ml-2">
               <div className="pl-4">
                 <a href={contacts[0].url}>
-                  <Image src={github} alt="github" className="w-1/3" />
+                  <Image src={github} alt="github" className="w-1/3 md:w-1/2" />
                 </a>
               </div>
               <div>
                 <a href={contacts[1].url}>
-                  <Image src={outlook} alt="outlook" className="w-1/3" />
+                  <Image src={outlook} alt="outlook" className="w-1/3 md:w-1/2" />
                 </a>
               </div>
               <div className="">
                 <a href={contacts[2].url}>
-                  <Image src={linkedin} alt="linkedin" className="w-1/3" />
+                  <Image src={linkedin} alt="linkedin" className="w-1/3 md:w-1/2" />
                 </a>
               </div>
               <div>
                 <a href={contacts[3].url}>
-                  <Image src={discord} alt="discord" className="w-1/3" />
+                  <Image src={discord} alt="discord" className="w-1/3 md:w-1/2" />
                 </a>
               </div>
             </div>
