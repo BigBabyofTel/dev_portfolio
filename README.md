@@ -5,3 +5,5 @@
 * project previews
 
 * detail popup added
+
+## v2 of the site is in development
